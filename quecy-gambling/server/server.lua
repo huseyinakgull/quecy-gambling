@@ -4,7 +4,7 @@ TriggerEvent('esx:getSharedObject', function(obj)
     ESX = obj
 end)
 
-local webhookUrl = "https://discord.com/api/webhooks/1136331191490969670/_44U4qCgGBRNXKgTBWUiCbpoYtvO3jpN7IWcvP2Ct2MEVkxfgJVJoRUNJKRvNinb59zo"
+local webhookUrl = ""
 local function SendDiscordMessage(playerName, amount, outcome)
     local data = {
         ["embeds"] = {
